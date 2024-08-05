@@ -38,9 +38,9 @@ app.get('/viewers/:id', (req, res) => {
     const id = req.params.id;
     const user = {
         id              : id,
-        firstName       : 'Tiffanie',
-        lastName        : 'Lyon',
-        birthDate       : '08/26/1986',
+        firstName       : 'Tiff',
+        lastName        : 'L',
+        birthDate       : '08/26/1900',
         favoriteMovies  : ['Grease','Encanto']
     };
     res.json(user);
